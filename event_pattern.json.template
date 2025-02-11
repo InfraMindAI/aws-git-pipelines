@@ -1,0 +1,11 @@
+{
+    "source": [
+        "aws.codecommit"
+    ],
+    "detail-type": [
+        "CodeCommit Repository State Change"
+    ],
+    "resources": ${jsonencode([
+       for arn in repository_arns : arn
+    ])}
+}
