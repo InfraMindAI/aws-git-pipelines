@@ -1,5 +1,4 @@
-# aws-git-pipelines
-AWS-based git pipelines. 
+# AWS-based git pipelines. 
 
 AWS Developer Tools provide a strong foundation for building CI/CD solutions. This code shows how to add automatic creation/starting and deletion of pipelines on create branch/push and delete branch operations in a CodeCommit source repository. 
 
